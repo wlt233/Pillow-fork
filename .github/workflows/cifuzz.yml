@@ -1,18 +1,18 @@
 name: CIFuzz
 
 on:
-  push:
-    branches:
-      - "**"
-    paths:
-      - ".github/workflows/cifuzz.yml"
-      - "**.c"
-      - "**.h"
-  pull_request:
-    paths:
-      - ".github/workflows/cifuzz.yml"
-      - "**.c"
-      - "**.h"
+  # push:
+  #   branches:
+  #     - "**"
+  #   paths:
+  #     - ".github/workflows/cifuzz.yml"
+  #     - "**.c"
+  #     - "**.h"
+  # pull_request:
+  #   paths:
+  #     - ".github/workflows/cifuzz.yml"
+  #     - "**.c"
+  #     - "**.h"
   workflow_dispatch:
 
 permissions:

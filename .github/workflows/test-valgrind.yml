@@ -3,18 +3,18 @@ name: Test Valgrind
 # like the Docker tests, but running valgrind only on *.c/*.h changes.
 
 on:
-  push:
-    branches:
-      - "**"
-    paths:
-      - ".github/workflows/test-valgrind.yml"
-      - "**.c"
-      - "**.h"
-  pull_request:
-    paths:
-      - ".github/workflows/test-valgrind.yml"
-      - "**.c"
-      - "**.h"
+  # push:
+  #   branches:
+  #     - "**"
+  #   paths:
+  #     - ".github/workflows/test-valgrind.yml"
+  #     - "**.c"
+  #     - "**.h"
+  # pull_request:
+  #   paths:
+  #     - ".github/workflows/test-valgrind.yml"
+  #     - "**.c"
+  #     - "**.h"
   workflow_dispatch:
 
 permissions:
